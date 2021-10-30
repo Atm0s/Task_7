@@ -122,10 +122,31 @@ body {
 	border: 0;
 	padding: 25px 41px;
 	background: #34547A;
-	/* text-align: center; */
 	letter-spacing: 0.1em;
 	color: white;
 	text-transform: uppercase;
 }
 
 /* Intro styles end */
+
+/* About-me section start*/
+
+.about-me__wrapper{
+	margin: 0 auto;
+	max-width: 540px;
+	padding: 112px 0 110px;
+}
+
+.about-me__title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 50px;
+}
+
+.about-me__subtitle {
+	text-align: center;
+}
+/* About-me section end*/
