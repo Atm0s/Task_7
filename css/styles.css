@@ -175,10 +175,12 @@ body {
 .project__card-img {
 	padding-right: 20px;
 }
-.project__card-text{
+
+.project__card-text {
 	align-items: flex-end;
 	justify-content: end;
 }
+
 .project__card-num {
 	font-weight: 500;
 	font-size: 21px;
@@ -186,3 +188,56 @@ body {
 }
 
 /* Projects section end */
+
+/* Proficiency section start */
+
+.proficiency__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1150px;
+	margin: 102px auto 101px;
+}
+
+.proficiency__list {
+	max-width: 445px;
+}
+
+.proficiency__title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	margin-bottom: 50px;
+}
+
+.proficiency__subtitle {
+	margin-bottom: 20px;
+}
+
+.proficiency__lines {
+	display: flex;
+	margin-bottom: 30px;
+	/* position: relative; */
+	/* flex-wrap: wrap; */
+}
+.proficiency__line-grey {
+	/* position: absolute; */
+	display: block;
+	width: 95px;
+	height: 4px;
+	background-color: #C4C4C4;;
+	left: 0;
+	transform: rotate(-0.06deg);
+}
+.proficiency__line-blue {
+	/* position: absolute; */
+	display: block;
+	width: 350px;
+	height: 4px;
+	background-color: #34547A;
+	left: 0;
+	transform: rotate(-0.06deg);
+}
+/* Proficiency section end */
