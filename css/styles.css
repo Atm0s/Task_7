@@ -322,3 +322,12 @@ body {
 }
 
 /* Pictures section end */
+
+/* Microsoft section start */
+.work__elements{
+	margin: 72px 0 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/* Microsoft section end */
