@@ -222,7 +222,6 @@ body {
 }
 
 .proficiency__list {
-
 	max-width: 445px;
 }
 
@@ -406,8 +405,42 @@ body {
 
 /* Request form section end */
 
+/* Footer section start*/
+
+.footer {
+	color: #FFFFFF;
+	background: #34547A;
+}
+.footer__item{
+	padding: 50px 0;
+}
+
+.footer__copyright-name {
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.footer__copyright-rights {
+	font-size: 13px;
+	line-height: 21px;
+}
+
+.footer__item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__vc-link_img{
+	padding-left: 21.87px;
+}
+
+/* Footer section end*/
+
 @media screen and (max-width: 1150px) {
-	.wrapper{
-padding: 0 20px;
+	.wrapper {
+		padding: 0 20px;
 	}
 }
