@@ -40,6 +40,7 @@ body {
 }
 
 .wrapper {
+	/* padding: 0 20px; */
 	max-width: 1100px;
 	margin: 0 auto;
 }
@@ -47,6 +48,12 @@ body {
 .wrapper__full {
 	max-width: 1920px;
 	margin: 0 auto;
+}
+
+.wrapper__540px {
+	margin: 0 auto;
+	max-width: 540px;
+	padding: 112px 0 110px;
 }
 
 .section__first {
@@ -101,20 +108,26 @@ body {
 	padding-bottom: 157px;
 }
 
-.intro__wrapper {
+.intro__module {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: initial;
-	justify-content: flex-end;
+	justify-content: space-between;
+	padding-left: 7.27%;
+}
+
+.intro__pic {
+	padding-top: 2px;
+	padding-bottom: 40px;
 }
 
 .intro__desc {
-	padding-left: 131px;
+	/* padding-left: 131px; */
 }
 
 .intro__desc-title {
 	font-weight: 500;
 	font-size: 48px;
+	line-height: 79px;
 	color: #000000;
 	margin-bottom: 60px;
 }
@@ -199,6 +212,7 @@ body {
 /* Proficiency section start */
 
 .proficiency__wrapper {
+	/* padding: 0 20px; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -208,6 +222,7 @@ body {
 }
 
 .proficiency__list {
+
 	max-width: 445px;
 }
 
@@ -220,43 +235,50 @@ body {
 }
 
 .proficiency__subtitle {
+	width: 100%;
 	margin-bottom: 30px;
 	padding-bottom: 20px;
 	position: relative;
 }
+
 .proficiency__subtitle::after {
 	display: block;
 	position: absolute;
 	content: '';
-	width: 350px;
+	width: 78.6%;
 	height: 4px;
 	background-color: #34547A;
 	bottom: 0;
 	left: 0;
 	transform: rotate(-0.06deg);
 }
+
 .proficiency__subtitle::before {
 	display: block;
 	position: absolute;
 	content: '';
-	width: 95px;
+	width: 21.4%;
 	height: 4px;
 	background-color: #C4C4C4;
 	bottom: 0;
-	left: 350px;
+	left: 78.6%;
 	transform: rotate(-0.06deg);
 }
+
 /* Proficiency section end */
 
 /* Video section start*/
+
 .video {
 	background: #EEEFF1;
 }
+
 .video__text-wrapper {
 	margin: 0 auto;
 	max-width: 540px;
 	padding-top: 100px;
 }
+
 .video__text-title {
 	font-weight: 500;
 	font-size: 32px;
@@ -265,10 +287,12 @@ body {
 	color: #000000;
 	margin-bottom: 50px;
 }
+
 .video__text-subtitle {
 	text-align: center;
 	margin-bottom: 57px;
 }
+
 .videos__wrapper {
 	max-width: 1110px;
 	margin: 0 auto 28px;
@@ -289,10 +313,8 @@ body {
 }
 
 /* Video section end*/
-	/* background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), url(.jpg); */
-	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-	/* Pictures section start */
+/* Pictures section start */
 
 .pictures__cards {
 	display: grid;
@@ -305,29 +327,87 @@ body {
 	position: relative;
 }
 
-.pictures__card:hover:before{
+.pictures__card:hover:before {
 	position: absolute;
 	display: block;
 	content: '';
 	width: 100%;
 	height: 100%;
-	background:  no-repeat center url(../img/svg/eye-ico.svg), rgba(52, 84, 122, 0.8);
+	background: no-repeat center url(../img/svg/eye-ico.svg), rgba(52, 84, 122, 0.8);
+	background-size: 21%;
 	z-index: 2;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.pictures__card-pic{
+.pictures__card-pic {
 	object-fit: cover;
-	width: 100%;	
+	width: 100%;
 }
 
 /* Pictures section end */
 
 /* Microsoft section start */
-.work__elements{
+
+.work__elements {
 	margin: 72px 0 100px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 /* Microsoft section end */
+
+/* Request form section start */
+
+.request-form {
+	background-color: #EEEFF1;
+	text-align: center;
+}
+
+.form__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.request-form__field {
+	top: 0;
+	border: none;
+	font-size: 14px;
+	line-height: 15px;
+	color: #5F5D5D;
+	padding: 17px 20px 16px;
+	margin-bottom: 20px;
+	font-family: 'Roboto';
+}
+
+.request-form__field_sm {
+	width: 47.2%;
+}
+
+.request-form__field_lg {
+	width: 100%;
+	height: 175px;
+	margin-bottom: 50px;
+}
+
+.request-form__submit {
+	width: 190px;
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px;
+	background: #34547A;
+	border: 0;
+}
+
+/* Request form section end */
+
+@media screen and (max-width: 1150px) {
+	.wrapper{
+padding: 0 20px;
+	}
+}
