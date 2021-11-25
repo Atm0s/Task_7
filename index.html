@@ -11,73 +11,77 @@
 </head>
 
 <body>
-	<section class="section__first">
-		<!-- Header start -->
-		<header class="header">
-			<div class="wrapper">
-				<div class="header__wrapper">
-					<div class="header__logo">
-						<a href="/" class="header__logo-link">
-							<img src="./img/svg/wd-logo.svg" alt="WD" class="header__logo-pic">
-						</a>
+	<!-- Header start -->
+	<header class="header">
+		<div class="wrapper">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<a href="/" class="header__logo-link">
+						<img src="./img/svg/wd-logo.svg" alt="WD" class="header__logo-pic">
+					</a>
+				</div>
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__item">
+							<a href="#!" class="header__link">Главная</a>
+						</li>
+						<li class="header__item">
+							<a href="#about-me" class="header__link">Об авторе</a>
+						</li>
+						<li class="header__item">
+							<a href="#projects" class="header__link">Работы</a>
+						</li>
+						<li class="header__item">
+							<a href="#video" class="header__link">Процесс</a>
+						</li>
+						<li class="header__item">
+							<a href="#proficiency" class="header__link">Контакты</a>
+						</li>
+					</ul>
+					<div class="header__nav-close">
+						<span class="header__nav-close-line"></span>
+						<span class="header__nav-close-line"></span>
 					</div>
-					<nav class="header__nav">
-						<ul class="header__list">
-							<li class="header__item">
-								<a href="#!" class="header__link">Главная</a>
-							</li>
-							<li class="header__item">
-								<a href="#about-me" class="header__link">Об авторе</a>
-							</li>
-							<li class="header__item">
-								<a href="#projects" class="header__link">Работы</a>
-							</li>
-							<li class="header__item">
-								<a href="#video" class="header__link">Процесс</a>
-							</li>
-							<li class="header__item">
-								<a href="#proficiency" class="header__link">Контакты</a>
-							</li>
-						</ul>
-						<div class="header__nav-close">
-							<span class="header__nav-close-line"></span>
-							<span class="header__nav-close-line"></span>
-						</div>
-					</nav>
-					<div class="header__burger burger">
-						<span class="burger__line burger__line_first"></span>
-						<span class="burger__line burger__line_second"></span>
-						<span class="burger__line burger__line_third"></span>
-					</div>
+				</nav>
+				<div class="header__burger burger">
+					<span class="burger__line burger__line_first"></span>
+					<span class="burger__line burger__line_second"></span>
+					<span class="burger__line burger__line_third"></span>
 				</div>
 			</div>
-		</header>
-		<!-- Header end -->
-
-		<!-- Intro start -->
-		<section class="intro">
-			<div class="wrapper">
-				<div class="intro__module">
-
-					<img src="./img/svg/pc-pic.svg" alt="Computer" class="intro__pic">
-					<div class="intro__desc">
-						<h1 class="intro__desc-title">
-							Дизайн и верстка
-						</h1>
-						<p class="intro__desc-subtitle">
-							Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне. Lorem Ipsum является
-							стандартной "рыбой" для текстов на латинице с начала XVI века.
-						</p>
-						<button class="button__write-me">Написать мне</button>
-					</div>
-				</div>
-			</div>
-		</section>
-	</section>
-	<!-- Intro end -->
+		</div>
+	</header>
+	<!-- Header end -->
 
 	<!-- Main start -->
 	<main class="main">
+
+		<!-- Intro start -->
+		<section class="section__first">
+
+			<section class="intro">
+				<div class="wrapper">
+					<div class="intro__module">
+
+						<img src="./img/svg/pc-pic.svg" alt="Computer" class="intro__pic">
+						<div class="intro__desc">
+							<h1 class="intro__desc-title">
+								Дизайн и верстка
+							</h1>
+							<p class="intro__desc-subtitle">
+								Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне. Lorem Ipsum
+								является
+								стандартной "рыбой" для текстов на латинице с начала XVI века.
+							</p>
+							<button class="button__write-me">Написать мне</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+		<!-- Intro end -->
+
+
 		<!-- About me section start -->
 		<section class="about-me" id="about-me">
 			<div class="about-me__wrapper">
@@ -265,13 +269,15 @@
 		<section class="request-form">
 			<div class="wrapper">
 				<div class="wrapper__540px">
-					<h2 class="video__text-title">
-						Хотите веб-сайт?
-					</h2>
-					<p class="video__text-subtitle">
-						Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне. Lorem Ipsum является
-						стандартной "рыбой" для текстов на латинице с начала XVI века.
-					</p>
+					<div class="video__text-wrapper">
+						<h2 class="video__text-title">
+							Хотите веб-сайт?
+						</h2>
+						<p class="video__text-subtitle">
+							Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне. Lorem Ipsum является
+							стандартной "рыбой" для текстов на латинице с начала XVI века.
+						</p>
+					</div>
 					<form class="request-form">
 						<div class="form__wrapper">
 							<input type="name" class="request-form__field request-form__field_sm" id="inputName"
